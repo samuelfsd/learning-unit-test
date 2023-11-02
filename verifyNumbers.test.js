@@ -7,13 +7,13 @@ describe("Testa 1", () => {
 });
 
 describe("Testa 2", () => {
-  it("A função recebe [1,2,3,4,5] e retorna true", () => {
+  it("A função recebe [1,'2',3,4,5] e retorna true", () => {
     expect(false).toEqual(numbers([1,'2', 3, 4, 5]));
   });
 });
 
 describe("Testa 3", () => {
-  it("A função recebe [1,2,3,4,5] e retorna true", () => {
+  it("A função recebe [' '] e retorna true", () => {
     expect(false).toEqual(numbers([" "]));
   });
 });
