@@ -5,6 +5,4 @@ const numbers = (arr) => {
   return true;
 };
 
-console.log(numbers([1, "2", 3]));
-
 module.exports = numbers;
