@@ -16,6 +16,6 @@ describe("Remove sabor da bebida", () => {
   });
 
   it("Remover groselha caso exista", () => {
-    expect(removeFlavor(drinks, "limonada")).toContain("coca");
+    expect(removeFlavor(drinks, "limonada")).not.toContain("groselha");
   });
 });

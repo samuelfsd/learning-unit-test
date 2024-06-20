@@ -8,4 +8,4 @@ um repo para o aprendizado básico sobre jest e testes unitários
 - Jest
 - ES6 modules
 
-
+![Alt text](image.png)
