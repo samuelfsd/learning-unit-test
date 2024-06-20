@@ -1,5 +1,11 @@
-### Repo para estudos de testes com Jest
+### Aprendendo sobre testes
 
 um repo para o aprendizado básico sobre jest e testes unitários
 
-![Alt text](image.png)
+# Ferramentas utilizadas
+
+- Javascript
+- Jest
+- ES6 modules
+
+
