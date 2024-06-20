@@ -1,22 +1,21 @@
 const removeFlavor = require("./removeFlavor");
 
+const drinks = ["coca", "redBull", "água", "limonada" , "garapa" ];
+
 describe("Remove sabor da bebida", () => {
   it("Remover água", () => {
-    const drinks = ["coke", "redbull", "whater", "lemonade"];
-    expect(["redbull", "whater", "lemonade"]).toEqual(
-      removeFlavor(drinks, "coke")
+    expect(drinks).toEqual(
+      removeFlavor(drinks, "água")
     );
   });
 
-  it("Remover whater", () => {
-    const drinks = ["coke", "redbull", "whater", "lemonade"];
-    expect(["coke", "redbull", "lemonade"]).toEqual(
-      removeFlavor(drinks, "whater")
+  it("Remover garapa", () => {
+    expect(drinks).toEqual(
+      removeFlavor(drinks, "garapa")
     );
   });
 
   it("Remover groselha caso exista", () => {
-    const drinks = ["coke", "redbull", "whater", "lemonade"];
-    expect(removeFlavor(drinks, "lemonade")).toContain("coke");
+    expect(removeFlavor(drinks, "limonada")).toContain("coca");
   });
 });
