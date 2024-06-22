@@ -7,6 +7,21 @@ um repo para o aprendizado básico sobre jest e testes unitários
 - Javascript
 - Jest
 - ES6 modules
-- High order functions 
+- High order functions
+
+# Test
+
+test with jest
+- describe
+- it
+- toBe
+
+# HOF
+- forEach
+- sort
+- map
+- filter
+- reduce
+- some
 
 ![Alt text](image.png)
