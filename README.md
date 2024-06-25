@@ -7,7 +7,7 @@ um repo para o aprendizado básico sobre jest e testes unitários
 - Javascript
 - Jest
 - ES6 modules
-- High order functions
+- High Order Functions
 
 # Test
 
