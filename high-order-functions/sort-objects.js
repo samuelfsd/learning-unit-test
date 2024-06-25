@@ -31,7 +31,7 @@ gamers.sort((a,b) => {
   a.points.forEach(point => pointsA += point)
   b.points.forEach(point => pointsB += point)
 
-  return pointsA-pointsB  
+  return pointsA-pointsB
 })
 
 
